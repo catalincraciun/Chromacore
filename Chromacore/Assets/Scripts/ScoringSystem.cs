@@ -2,15 +2,21 @@ using UnityEngine;
 using System.Collections;
 
 public class ScoringSystem : MonoBehaviour {
+
 	// Properties
-	float timeLapsed;
+	GameObject scoreBoard;
+
 	GUIText scoreLabel;
-	bool teliIsDead;
 
 	private int score;
 	private const string highScoreKey = "HighScore";
 
 	// Methods
+	void ShowOnScreen() {
+		string labelToSet = "Score: " + score.ToString() + "\n\n" + "High Score: " + PlayerPrefs.GetInt (highScoreKey).ToString ();
+		scoreBoard.SendMessage ("InitGUI", labelToSet);
+	}
+
 	public void RegisterScore () {
 		int currentHighScore = PlayerPrefs.GetInt (highScoreKey);
 
@@ -22,30 +28,21 @@ public class ScoringSystem : MonoBehaviour {
 	
 		// Do what you want with the updated high score and the current score
 		// ...
-		scoreLabel.text = "High Score: " + PlayerPrefs.GetInt (highScoreKey);
-	}
 
-	// Start method
-	public void SetCharacterAlive() {
-		teliIsDead = false;
+		Invoke ("ShowOnScreen", 1f);
 	}
-
-	public void SetCharacterDead() {
-		teliIsDead = true;
-	}
-
+	
 	public void ResetScore() {
 		score = 0;
 	}
 
 	void Start () {
-		timeLapsed = 0;
 		score = 0;
 
+		scoreBoard = GameObject.FindGameObjectWithTag ("ScoreBoard");
+
 		scoreLabel = GetComponent<GUIText>();
-		scoreLabel.pixelOffset = new Vector2(-(Screen.width/2) + 100, (Screen.height/2) - 50);
-	
-		SetCharacterAlive ();
+		scoreLabel.pixelOffset = new Vector2(-(Screen.width/2) + 25, (Screen.height/2) - 50);
 	}
 	
 	// Update is called once per frame

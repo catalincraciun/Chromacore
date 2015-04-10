@@ -35,7 +35,7 @@ public class SceneManagement : MonoBehaviour {
 	}
 
 	void SetDependencies () {
-		Debug.Log ("Setting dependencies...");
+		// Debug.Log ("Setting dependencies...");
 
 		// For structs coming after 1
 		dependencies [1, 1] = new Vector2 (76.7f, 1.01f);
@@ -119,7 +119,7 @@ public class SceneManagement : MonoBehaviour {
 	}
 
 	void GenerateStructure() {
-		Debug.Log ("Generating a structure on the position " + freeMem.ToString() + "...");
+		// Debug.Log ("Generating a structure on the position " + freeMem.ToString() + "...");
 
 		// Generating a structure on free mem
 		int structureIndex = RandomIntLowerThan (structsPrefabs.Length);
@@ -145,7 +145,7 @@ public class SceneManagement : MonoBehaviour {
 	}
 
 	void GenerateInitial () {
-		Debug.Log ("Generating initial structures...");
+		// Debug.Log ("Generating initial structures...");
 		str [1] = StructType.str2;
 		strP [1] = new Vector2 (0, 0);
 		rightmostPositionX = 0;
@@ -156,7 +156,7 @@ public class SceneManagement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log ("Start");
+		// Debug.Log ("Start");
 
 		rightmostBackgroundPositionX = 78.9f;
 		generationRow = 3;

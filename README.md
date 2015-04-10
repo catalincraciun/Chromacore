@@ -33,12 +33,12 @@ A youtube gameplay video can be found here: [Coming soon]
 * Changes in gameplay
   * We have changed a lot here, we have made the gameplay infinite by creating a very efficient and bug-free generation mechanism
   * We have changed the way teli dies
-  * We added a new concept that gives teli a second change if he bumps into an obstacle, now teli shouldn't fall behind, every obstacle he fails to avoid leaves him back. When he is out of the camera, the game is over.
+  * We added a new concept that gives teli a second change, now teli shouldn't fall behind, every obstacle he fails to avoid leaves him back. When he is out of the camera, the game is over.
 * Changes in graphics
-  * We have changed the building in the background
-  * We have added brand new structures, on which the main character steps
+  * We have changed the buildings in the background
+  * We have added brand new structures on which the main character steps
   * We have darkened everything, including the main character and the balls (now they are called mistic balls)
-  * We have reduced the character in size, it looks far better now
+  * We have darkened and reduced the character in size, it looks better now
 * Changes in UI
   * We have added an instructions scene and a stunning menu with automatic gameplay on the background
 * Changes in logic

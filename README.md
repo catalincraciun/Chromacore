@@ -45,7 +45,7 @@ A youtube gameplay video can be found here: [Coming soon]
   * We have fixed uncountable bugs which made the game unplayable
 
 <br></br>
-In short, we have turned an ugly and unplayable game into a good-looking, bug-free and addictive piece of art.
+In short, we have turned a quite buggy game into a good looking, bug-free and addictive piece of art.
 
 ## The Team
 The project has been continued by a two-member motivated team:

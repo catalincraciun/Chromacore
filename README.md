@@ -51,6 +51,7 @@ In short, we have turned an ugly and unplayable game into a good-looking, bug-fr
 
 Special thanks to the initial authors which have set the basis of this game: Deniz Ozkaynak, Jen Tella, Korbin Shuffelton, Jeff Fienberg, Ronny Mraz, Sean King.
 
+<br></br>
 The project has been continued by a two-member motivated team:
 - Code: Catalin Craciun
 - Art: Domide Bogdan

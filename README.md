@@ -5,7 +5,7 @@ Github Game Off 2015
 <br></br>
 ## Description
 
-Chromacore is a 2D infinite musical platformer set in the dark. Our thief struggles to run away from other mystic forces slowing him down. Run, run and run!
+Chromacore is a 2D infinite musical platformer set in dark. Our thief struggles to run away from mystic forces slowing him down. Run, run and run!
 
 Built with Unity 5 (Personal Edition)
 <br></br><br></br>
@@ -33,12 +33,13 @@ A youtube gameplay video can be found here: [Coming soon]
 * Changes in gameplay
   * We have changed a lot here, we have made the gameplay infinite by creating a very efficient and bug-free generation mechanism
   * We have changed the way teli dies
-  * We added a new concept that gives teli a second change, now teli shouldn't fall behind, every obstacle he fails to avoid leaves him back. When he is out of the camera, the game is over.
+  * We added a new concept that gives teli a second change, now teli shouldn't fall behind the camera. Every obstacle he fails to avoid leaves him back. When he is out of the camera, the game is over.
 * Changes in graphics
   * We have changed the buildings in the background
   * We have added brand new structures on which the main character steps
   * We have darkened everything, including the main character and the balls (now they are called mistic balls)
   * We have darkened and reduced the character in size, it looks better now
+  * We have added dynamic flashy lights to create a beautiful atmosphere
 * Changes in UI
   * We have added an instructions scene and a stunning menu with automatic gameplay on the background
 * Changes in logic

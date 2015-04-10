@@ -32,8 +32,8 @@ A youtube gameplay video can be found here: https://www.youtube.com/watch?v=-PEK
 
 * Changes in gameplay
   * We have changed a lot here, we have made the gameplay infinite by creating a very efficient and bug-free generation mechanism
-  * We have changed the way teli dies
-  * We added a new concept that gives teli a second change, now teli shouldn't fall behind the camera. Every obstacle he fails to avoid leaves him back. When he is out of the camera, the game is over.
+  * We have changed the way Teli dies
+  * We added a new concept that gives Teli a second change, now Teli shouldn't fall behind the camera. Every obstacle he fails to avoid leaves him back. When he is out of the camera, the game is over.
 * Changes in graphics
   * We have changed the buildings in the background
   * We have added brand new structures on which the main character steps

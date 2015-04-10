@@ -21,16 +21,16 @@ A youtube gameplay video can be found here: [Coming soon]
 
 ## "After" game screenshots
 
-<img alt="After screenshot 1" src="https://raw.github.com/Murkantilism/game-off-2013/master/ChromacoreInGameScreenshot.png" width="640">
-
-### What we have changed
-
 <img alt="After screenshot 1" src="https://raw.githubusercontent.com/catalincraciun/Chromacore/master/Screenshots/Screen%20Shot%202015-04-10%20at%2016.06.29.png" width="640">
 <br></br>
 <img alt="After screenshot 2" src="https://raw.githubusercontent.com/catalincraciun/Chromacore/master/Screenshots/Screen%20Shot%202015-04-10%20at%2016.07.05.png" width="640">
 <br></br>
 <img alt="After screenshot 3" src="https://raw.githubusercontent.com/catalincraciun/Chromacore/master/Screenshots/Screen%20Shot%202015-04-10%20at%2016.07.37.png" width="640">
 <br></br>
+
+### What we have changed
+
+[Coming soon]
 
 ## The Team
 

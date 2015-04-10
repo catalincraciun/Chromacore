@@ -13,7 +13,7 @@ The game can be found here: http://catalincraciun.me/Chromacore
 <br></br>
 The initial version of the game can be found here: http://catalincraciun.me/OLDChromacore
 <br></br><br></br>
-A youtube gameplay video can be found here: [Coming soon]
+A youtube gameplay video can be found here: https://www.youtube.com/watch?v=-PEKCkW4-4g&feature=youtu.be
 
 ## "Before" game screenshots
 

@@ -9,6 +9,7 @@ public class BoxBrain : MonoBehaviour {
 	public AudioClip[] BoxSounds;
 
 	SpriteRenderer TeliSpriteRenderer;
+	SpriteRenderer AutoTeliSpriteRenderer;
 
 	float time;
 	int index;
@@ -29,21 +30,39 @@ public class BoxBrain : MonoBehaviour {
 	}
 
 	void OnTriggerStay2D(Collider2D col) {
-		for (int i = 0; i < TeliPunchAnimation.Length; i++) {
-			if (TeliSpriteRenderer.sprite == TeliPunchAnimation[i]) {
-				Destroy(GetComponent<BoxCollider2D>());
-				shouldPlayAnimation = true;
-				AudioSource BoxAudioSource = GetComponent<AudioSource>();
-				BoxAudioSource.clip = BoxSounds[RandomIntLowerThan(BoxSounds.Length)];
-				BoxAudioSource.Play();
-				Invoke("DestroyYourself", 3f);
+		if (col.gameObject.tag == "Teli") {
+			if (TeliSpriteRenderer == null)
+				TeliSpriteRenderer = GameObject.FindGameObjectWithTag ("Teli").GetComponent<SpriteRenderer> ();
+			for (int i = 0; i < TeliPunchAnimation.Length; i++) {
+				if (TeliSpriteRenderer.sprite == TeliPunchAnimation [i]) {
+					Destroy (GetComponent<BoxCollider2D> ());
+					shouldPlayAnimation = true;
+					AudioSource BoxAudioSource = GetComponent<AudioSource> ();
+					BoxAudioSource.clip = BoxSounds [RandomIntLowerThan (BoxSounds.Length)];
+					BoxAudioSource.Play ();
+					Invoke ("DestroyYourself", 3f);
+					break;
+				}
+			}
+		} else if (col.gameObject.tag == "AutoTeli") {
+			if (AutoTeliSpriteRenderer == null)
+				AutoTeliSpriteRenderer = GameObject.FindGameObjectWithTag ("AutoTeli").GetComponent<SpriteRenderer> ();
+			for (int i = 0; i < TeliPunchAnimation.Length; i++) {
+				if (AutoTeliSpriteRenderer.sprite == TeliPunchAnimation [i]) {
+					Destroy (GetComponent<BoxCollider2D> ());
+					shouldPlayAnimation = true;
+					AudioSource BoxAudioSource = GetComponent<AudioSource> ();
+					BoxAudioSource.clip = BoxSounds [RandomIntLowerThan (BoxSounds.Length)];
+					BoxAudioSource.Play ();
+					Invoke ("DestroyYourself", 3f);
+					break;
+				}
 			}
 		}
 	}
 
 	// Use this for initialization
 	void Start () {
-		TeliSpriteRenderer = GameObject.FindGameObjectWithTag ("Teli").GetComponent<SpriteRenderer> ();
 		BoxRenderer = GetComponent<SpriteRenderer> ();
 
 		shouldPlayAnimation = false;

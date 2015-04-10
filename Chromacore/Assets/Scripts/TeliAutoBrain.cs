@@ -76,7 +76,6 @@ public class TeliAutoBrain : MonoBehaviour {
 				teliAnimator.SetInteger("state", FallAnimationState);
 		} else if (teliAnimator.GetInteger("state") == FallAnimationState && !jumped && (teliBody.velocity.y >= oldvel || Mathf.Abs(teliBody.velocity.y) <= errorVel)) {
 			// Make Teli run again
-			Debug.Log("here!");
 			jumped = false;
 			teliAnimator.SetInteger("state", RunAnimationState);
 		}

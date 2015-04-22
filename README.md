@@ -9,9 +9,9 @@ Chromacore is a 2D infinite musical platformer set in dark. Our thief struggles 
 
 Built with Unity 5 (Personal Edition)
 <br></br><br></br>
-The game can be found here: http://catalincraciun.me/Chromacore (if that won't work try: http://178.62.62.247/Chromacore)
+The game can be found here: http://catalincraciun.me/Chromacore
 <br></br>
-The initial version of the game can be found here: http://catalincraciun.me/OLDChromacore (if that won't work try: http://178.62.62.247/OLDChromacore)
+The initial version of the game can be found here: http://catalincraciun.me/OLDChromacore
 <br></br><br></br>
 A youtube gameplay video can be found here: https://www.youtube.com/watch?v=-PEKCkW4-4g&feature=youtu.be
 

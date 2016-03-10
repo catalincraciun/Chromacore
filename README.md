@@ -8,11 +8,7 @@ Github Game Off 2015
 Chromacore is a 2D infinite musical platformer set in dark. Our thief struggles to run away from mystic forces slowing him down. Run, run and run!
 
 Built with Unity 5 (Personal Edition)
-<br></br><br></br>
-The game can be found here: http://catalincraciun.me/Chromacore
 <br></br>
-The initial version of the game can be found here: http://catalincraciun.me/OLDChromacore
-<br></br><br></br>
 A youtube gameplay video can be found here: https://www.youtube.com/watch?v=-PEKCkW4-4g&feature=youtu.be
 
 ## "Before" game screenshots

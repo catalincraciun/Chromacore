@@ -39,13 +39,10 @@ A youtube gameplay video can be found here: https://www.youtube.com/watch?v=-PEK
 * Changes in UI
   * We have added an instructions scene and a stunning menu with automatic gameplay on the background
 * Changes in logic
-  * We have fixed uncountable bugs which made the game unplayable
-
-<br></br>
-In short, we have turned a quite buggy game into a good looking, bug-free and addictive piece of art.
+  * We have fixed some bugs which made the game slightly unplayable
 
 ## The Team
-The project has been continued by a two-member motivated team:
+The project was briefly continued by a two-member motivated team for Github Game Off 2015:
 - Code: Catalin Craciun
 - Art: Domide Bogdan
 

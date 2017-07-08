@@ -39,7 +39,7 @@ A youtube gameplay video can be found here: https://www.youtube.com/watch?v=-PEK
 * Changes in UI
   * We have added an instructions scene and a stunning menu with automatic gameplay on the background
 * Changes in logic
-  * We have fixed some bugs which made the game slightly unplayable
+  * We have fixed a bug caused by certain animations and a lazy way of checking for death. On collision with a box it was checking the animator's current animation state, so if you grabbed a lum right before the box you'd be in the "wrong" animation state and die.
 
 ## The Team
 The project was briefly continued by a two-member motivated team for Github Game Off 2015:

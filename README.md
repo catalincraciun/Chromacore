@@ -43,8 +43,8 @@ A youtube gameplay video can be found here: https://www.youtube.com/watch?v=-PEK
 
 ## The Team
 The project was briefly continued by a two-member motivated team for Github Game Off 2015:
-- Code: Catalin Craciun
-- Art: Domide Bogdan
+- Code: Bogdan Domide, Catalin Craciun
+- Art: Bogdan Domide
 
 <br></br>
 Special thanks to the initial authors which have set the basis of this game: Deniz Ozkaynak, Jen Tella, Korbin Shuffelton, Jeff Fienberg, Ronny Mraz, Sean King.
